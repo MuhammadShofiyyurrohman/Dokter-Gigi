@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rozi Poli Klinik</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: rgb(241, 222, 200)">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logo gigi.jpg"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          KLINIK KESEHATAN GIGI
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../AdminLTE-3.2.0/index2.html">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="search"
+              aria-label="search"
+              
+            />
+            <button href="../AdminLTE-3.2.0/index2.html" class="btn btn-outline-success" type="submit" id="log-in"><i data-feather="log-in">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <!-- Existing content remains here -->
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan" class="container mt-5">
+      <h2 class="text-center mb-4">OUR TEAM</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/r.JPG" class="card-img-top" alt="Dokter 1" />
+            <div class="card-body">
+              <h5 class="card-title">Drg.donggo,MPH</h5>
+              <p class="card-text">SENIN-KAMIS. 08:00-17;00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/th.jpeg" class="card-img-top" alt="Layanan 2" />
+            <div class="card-body">
+              <h5 class="card-title">Drg.Aris setiawan</h5>
+              <p class="card-text">SENIN-KAMIS 17:00-23:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dokter.jpg" class="card-img-top" alt="Layanan 3" />
+            <div class="card-body">
+              <h5 class="card-title">drg.joko santosoo</h5>
+              <p class="card-text">JUMAT-MINGGU 08:00-18:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dokter.jpg" class="card-img-top" alt="Layanan 3" />
+            <div class="card-body">
+              <h5 class="card-title">drg.joko santosoo</h5>
+              <p class="card-text">JUMAT-MINGGU 08:00-18:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-5" style="background-color: #f7f7f7">
+      <div class="container">
+        <h2 class="text-center mb-4">Booking Perawatan</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Masukkan nama lengkap Anda"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Masukkan email Anda"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Tanggal Booking</label>
+            <input type="date" class="form-control" id="date" />
+          </div>
+          <div class="mb-3">
+            <label for="time" class="form-label">Jam Booking</label>
+            <input type="time" class="form-control" id="time" />
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="py-5" style="background-color: #eaeaea">
+      <div class="container">
+        <h2 class="text-center mb-4">Testimoni Pasien</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Pelayanan di klinik ini sangat ramah, dan dokter giginya
+                  sangat profesional. Saya merasa nyaman selama perawatan."
+                </p>
+                <h5 class="card-title">Aulia</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Klinik ini sangat bersih dan terawat. Saya puas dengan hasil
+                  perawatan gigi saya."
+                </p>
+                <h5 class="card-title">Budi</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Terima kasih kepada dokter yang telah memberikan solusi
+                  terbaik untuk perawatan gigi saya."
+                </p>
+                <h5 class="card-title">Siti</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5" style="background-color: #f7f7f7">
+      <div class="container">
+        <h2 class="text-center mb-4">Tentang Kami</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/dokter.jpg" class="img-fluid" alt="Tentang Kami" />
+          </div>
+          <div class="col-md-6">
+            <p>
+              Selamat datang di Klinik Kesehatan Gigi kami, tempat di mana
+              senyum Anda adalah prioritas utama kami! Kami berkomitmen untuk
+              memberikan perawatan gigi yang terbaik dengan pendekatan yang
+              ramah, profesional, dan penuh perhatian. Klinik kami dilengkapi
+              dengan teknologi terbaru dan tenaga medis yang berpengalaman untuk
+              memastikan bahwa setiap pasien mendapatkan perawatan yang tepat
+              sesuai dengan kebutuhan mereka.Kami menawarkan berbagai layanan,
+              mulai dari perawatan pencegahan, penanganan masalah gigi, hingga
+              layanan kecantikan gigi, semua dengan tujuan untuk menjaga
+              kesehatan dan keindahan senyum Anda. Di Klinik Kesehatan Gigi
+              kami, kami percaya bahwa setiap orang berhak mendapatkan perawatan
+              gigi yang berkualitas, tanpa rasa takut atau cemas.Visi kami
+              adalah menjadi klinik kesehatan gigi yang terpercaya, memberikan
+              layanan terbaik dengan harga yang terjangkau, serta menjalin
+              hubungan jangka panjang dengan setiap pasien kami. Dengan
+              pelayanan yang personal, kami ingin memastikan setiap kunjungan ke
+              klinik kami selalu menyenangkan dan memberikan hasil yang
+              maksimal.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="text-center mb-4">Perawatan Ortodenti</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/perawatan.png" class="img-fluid" alt="Tentang Kami" />
+          </div>
+          <div class="col-md-6">
+            <p>
+              Ingin memiliki senyum indah nan menawan? Anda bisa
+mewujudkannya dengan melakukan perawatan orthodonti.
+Ortodonti adalah treatment yang bertujuan mengoreksi posisi
+gigi yang tidak sesuai menggunakan alat ortho cekat atau
+alat ortho yang dapat dilepas. Penggunaan alat ortho cekat
+yang sering kita temui dikenal dengan behel
+Berikut manfaat Perawatan Gigi Anak:
+Memperbaiki estetika gigi
+Meningkatkan kepercayaan diri
+Memperbaiki fungsi gigi
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5" style="background-color: #eaeaea">
+      <div class="container">
+        <h2 class="text-center mb-4">Kontak Kami</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Alamat:</h5>
+            <p>Jl. Kesehatan No.200, bogor, Indonesia</p>
+            <h5>Email:</h5>
+            <p>info@klinikkesehatangigi.com</p>
+            <h5>Telepon:</h5>
+            <p>+62 882-9652-8953</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Hubungi Kami:</h5>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Masukkan nama Anda"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Masukkan email Anda"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Masukkan pesan Anda"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
